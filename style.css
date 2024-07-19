@@ -1,0 +1,234 @@
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+}
+.signupBtn{
+    background: #0C0E0F;
+    color: white;
+    padding: 9px 25px;
+}
+.signupBtn:hover, .seecBtn:hover{
+    background: #0C0E0F;
+}
+.sec1{
+    border: 2px solid black;
+    height: 550px;
+    width: 100%;
+    /* position: relative; */
+    top: 80px;
+    background: #222222;
+    color: white;
+    /* background: linear-gradient(#EAF3FC, #EAF1FF); */
+}
+.sec1_text{
+    /* border: 2px solid black; */
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 650px) {
+    .sec1{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .sec1_img{
+        width: auto !important;
+    }
+    .sec1_text{
+        width: auto;
+    }
+    .sec1_text h1{
+        font-size: 25px !important;
+    }
+    .sec1 p{
+        padding: 0px 12px !important;
+    }
+}
+.sec1_text h1{
+    font-size: 43px;
+    /* padding: 0 30px; */
+}
+.sec1 p{
+    padding: 11px 8%;
+    font-size: 18px;
+}
+.sec1_img{
+    /* border: 2px solid black; */
+    width: 600px;
+}
+.sec1_img > img{
+    height: 100%;
+    width: 100%;
+}
+.reviewBox{
+    /* border: 2px solid black; */
+    height: 150px;
+}
+.reviewNo{
+    font-size: 29px !important;
+    font-weight: 800;
+}
+.plusIcon{
+    color: #0A72AD;
+    font-size: 26px !important;
+    font-weight: 750;
+}
+
+.cr{
+    /* display: inline-flex!important; */
+}
+
+.sec2{
+    /* border: 2px solid black; */
+    /* height: 400px; */
+}
+
+/* .cards{
+} */
+.sec2-card{
+    /* border: 2px solid black; */
+    box-shadow: rgba(149, 157,  165, 0.2) 0px 8px 24px;
+    height: 340px;
+    width: 300px;
+    background: #f6f6f652 !important;
+}
+.sec2-img{
+    height: 180px;
+    /* border: 2px solid black; */
+}
+.sec2-img > img{
+    height: 100%;
+    width: 100%;
+}
+.sec2-text{
+    color: #989898;
+}
+.cardBtn{
+    color: white;
+    background: black;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.seeBtn{
+    background-color: #222222;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+
+
+.sec3{
+    background-color: #EDF5FE;
+}
+.sec3-para{
+    color: #8B8B8B;
+    font-size: 18px;
+}
+.sec3-card{
+    /* border: 2px solid black; */
+    /* height: 300px; */
+    width: 320px;
+    border-radius: 10px;
+}
+.sec3-img{
+    height: 65px;
+    width: 65px;
+    border-radius: 40px;
+    /* border: 2px solid black; */
+}
+.sec3-img img{
+    height: 100%;
+    width: 100%;
+}
+.sec-3para2{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    width: 270px; 
+    background-color: #F4F2F2 !important;
+}
+
+.sec4{
+    background: #EDF5FE;
+}
+.sec4 div{
+    height: 300px;
+    width: 550px;
+    /* border: 2px solid black; */
+}
+.sec4-img img{
+    height: 100%;
+    width: 100%;
+}
+.sec4 p{
+    color: #989898;
+    font-size: 17px;
+}
+
+.sec5{
+    /* background-color: #222222; */
+    color: white;
+}
+.sec5Card{
+    /* height: 300px; */
+    overflow: hidden;
+    width: 310px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 10px;
+    margin-right: 14px !important;
+}
+.buyerTitle{
+    color: #989898;
+}
+.sec5Img{
+    /* border: 2px solid black; */
+    height: 65px;
+    width: 65px;
+    border-radius: 40px;
+}
+
+.card-container{
+    max-width: 1100px;
+    padding: 25px 2px !important;
+}
+.card_content{
+    overflow: hidden;
+    /* margin-inline: 1.75rem; */
+}
+.sec5Para{
+    color: black !important;
+}
+
+a {
+    text-decoration: none;
+}
+footer{
+    /* background-color: #222222 !important; */
+    color: white;
+}
+
+
+
+.ri-arrow-right-line{
+    font-size: 30px;
+    float: inline-end;
+    margin-top: -45px;
+    margin-right: 46%;
+}
+@media (max-width: 650px) {
+    .ri-arrow-right-line{
+        margin-right: 39%;
+    }
+}
+
+.ri-arrow-left-line{
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+}
