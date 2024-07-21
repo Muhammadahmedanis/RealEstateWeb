@@ -14,14 +14,12 @@
     border: 2px solid black;
     height: 550px;
     width: 100%;
-    /* position: relative; */
-    top: 80px;
+    /* top: 80px !important; */
     background: #222222;
     color: white;
-    /* background: linear-gradient(#EAF3FC, #EAF1FF); */
+    margin-top: 30px;
 }
 .sec1_text{
-    /* border: 2px solid black; */
     width: 800px;
     display: flex;
     flex-direction: column;
@@ -48,14 +46,12 @@
 }
 .sec1_text h1{
     font-size: 43px;
-    /* padding: 0 30px; */
 }
 .sec1 p{
     padding: 11px 8%;
     font-size: 18px;
 }
 .sec1_img{
-    /* border: 2px solid black; */
     width: 600px;
 }
 .sec1_img > img{
@@ -63,7 +59,6 @@
     width: 100%;
 }
 .reviewBox{
-    /* border: 2px solid black; */
     height: 150px;
 }
 .reviewNo{
@@ -75,28 +70,16 @@
     font-size: 26px !important;
     font-weight: 750;
 }
-
-.cr{
-    /* display: inline-flex!important; */
-}
-
-.sec2{
-    /* border: 2px solid black; */
-    /* height: 400px; */
-}
-
-/* .cards{
-} */
 .sec2-card{
-    /* border: 2px solid black; */
     box-shadow: rgba(149, 157,  165, 0.2) 0px 8px 24px;
     height: 340px;
     width: 300px;
-    background: #f6f6f652 !important;
+}
+.sec2, #dropDown{
+    background-color: #EDF5FE;
 }
 .sec2-img{
     height: 180px;
-    /* border: 2px solid black; */
 }
 .sec2-img > img{
     height: 100%;
@@ -104,6 +87,8 @@
 }
 .sec2-text{
     color: #989898;
+    background: #f6f6f618 !important;
+
 }
 .cardBtn{
     color: white;
@@ -120,8 +105,16 @@
     padding: 6px 15px;
     border-radius: 5px;
 }
-
-
+select{
+    border: none; 
+    outline: none;
+}
+.filterSec{
+    border: 2px solid;
+    width: 145px;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
 
 .sec3{
     background-color: #EDF5FE;
@@ -131,8 +124,6 @@
     font-size: 18px;
 }
 .sec3-card{
-    /* border: 2px solid black; */
-    /* height: 300px; */
     width: 320px;
     border-radius: 10px;
 }
@@ -140,14 +131,12 @@
     height: 65px;
     width: 65px;
     border-radius: 40px;
-    /* border: 2px solid black; */
 }
 .sec3-img img{
     height: 100%;
     width: 100%;
 }
 .sec-3para2{
-    /* border: 2px solid black; */
     border-radius: 10px;
     width: 270px; 
     background-color: #F4F2F2 !important;
@@ -159,7 +148,6 @@
 .sec4 div{
     height: 300px;
     width: 550px;
-    /* border: 2px solid black; */
 }
 .sec4-img img{
     height: 100%;
@@ -171,23 +159,21 @@
 }
 
 .sec5{
-    /* background-color: #222222; */
     color: white;
+    background-color: #222222;
 }
 .sec5Card{
-    /* height: 300px; */
     overflow: hidden;
-    width: 310px;
-    border: 2px solid black;
+    width: 352px !important;
+    /* border: 2px solid black; */
     background-color: rgba(255, 255, 255, 0.808);
     border-radius: 10px;
-    margin-right: 14px !important;
+    margin: 0px 7px !important;
 }
 .buyerTitle{
     color: #989898;
 }
 .sec5Img{
-    /* border: 2px solid black; */
     height: 65px;
     width: 65px;
     border-radius: 40px;
@@ -199,7 +185,6 @@
 }
 .card_content{
     overflow: hidden;
-    /* margin-inline: 1.75rem; */
 }
 .sec5Para{
     color: black !important;
@@ -209,7 +194,6 @@ a {
     text-decoration: none;
 }
 footer{
-    /* background-color: #222222 !important; */
     color: white;
 }
 
@@ -221,14 +205,30 @@ footer{
     margin-top: -45px;
     margin-right: 46%;
 }
+.ri-arrow-left-line{
+    font-size: 30px;
+    margin-left: 46%;
+}
 @media (max-width: 650px) {
+    .ri-arrow-left-line{
+        margin-left: 31% !important;
+    }
     .ri-arrow-right-line{
-        margin-right: 39%;
+        margin-right: 39% !important;
     }
 }
 
-.ri-arrow-left-line{
-    font-size: 29px;
-    display: flex;
-    justify-content: center;
+
+.nextClk{
+    background-color: black; 
+    border-radius: 30px; 
+    padding: 1px 8px !important; 
+    color: white;
 }
+.prevClk{
+    background: black;
+    border-radius: 30px;
+    padding: 8px;
+    color: white;
+}
+
